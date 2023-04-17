@@ -1,0 +1,11 @@
+﻿# filename: edgex_service_config.yaml
+
+# [主题, 功能]
+topic_func:
+  - !!python/tuple ["result", "topic_a_func"]
+  # - !!python/tuple ["edgex1", "topic_b_func"]
+
+# [主题, Qos]
+sub_topics_array:
+  - !!python/tuple ["result", 1]
+  # - !!python/tuple ["edgex1", 0]

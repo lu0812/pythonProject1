@@ -1,0 +1,6 @@
+# filename: broker_config.yaml
+
+# broker
+mqtt_broker: "10.181.56.143"
+
+
